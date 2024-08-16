@@ -1,0 +1,21 @@
+{
+    "build": {
+      "core": "naked",
+      "extra_flags": "-DGeneric80C32 -DNAKED_ARCH_MCS51 -DMICROCONTROLLER_8052",
+      "f_cpu": "11000000L",
+      "size_iram": 256,
+      "size_xram": 8192,
+      "size_code": 65535,
+      "size_heap": 128,
+      "mcu": "8032",
+      "cpu": "mcs51"
+    },
+    "frameworks": [],
+    "upload": {
+      "maximum_ram_size": 256,
+      "maximum_size": 65535
+    },
+    "name": "80C32 with 8k RAM, 64k EEPROM",
+    "url": "",
+    "vendor": "TEMIC"
+  }
